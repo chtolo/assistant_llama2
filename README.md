@@ -10,7 +10,6 @@ Llama2 est un modèle de langage avancé développé pour comprendre et génére
 ## Étapes du Projet
 
 ### 1. Collecte de Données
-Voici les étapes corrigées et détaillées sans code :
 
 - **Conversion des décrets de marché public (2013 et 2023) de fichiers PDF en fichiers .txt** :
    - Utilisez des outils ou bibliothèques comme `PyMuPDF`, `pdfminer.six`, ou `PyPDF2` pour extraire le texte des fichiers PDF et les enregistrer en tant que fichiers .txt.
@@ -21,30 +20,34 @@ Voici les étapes corrigées et détaillées sans code :
 - **Rassemblement d'un dataset sous forme de paires "###human: \"\" ###assistant:\"\":"** :
    - Organisez les données extraites en paires de questions-réponses, en utilisant les balises "###human:" et "###assistant:" pour chaque entrée.
 
-![collecte](collectedeDonnées.png)
+![Collecte de Données](images/collecte_de_données.png)
 
 ### 2. Préparation du Dataset
+
 Une fois les données collectées, elles doivent être nettoyées et formatées correctement. Cela inclut la suppression des données redondantes, la normalisation des textes, et la structuration des informations sous forme de paires questions-réponses.
 
 - **Utilisation d'une transformation de ce format en utilisant des balises spécifiques** :
    - Adaptez le format des données en utilisant des balises spécifiques pour structurer les questions et les réponses de manière cohérente.
 
-![Préparation du Dataset](dataset-preparation.png)
+![Préparation du Dataset](images/dataset_preparation.png)
 
 ### 3. Déploiement dans Hugging Face
+
 Les données préparées sont ensuite chargées dans Hugging Face, une plateforme qui facilite la gestion et le partage de modèles de machine learning. Nous utilisons les outils de Hugging Face pour organiser et annoter notre dataset.
 
-![Déploiement dans Hugging Face](huggingface-deployment.png)
+![Déploiement dans Hugging Face](images/huggingface_deployment.png)
 
 ### 4. Fine-Tuning
+
 Le modèle Llama2 est pré-entraîné sur un large corpus de données générales. Pour l'adapter à notre domaine spécifique, nous effectuons un fine-tuning en utilisant notre dataset de finance publique. Cela permet au modèle d'apprendre les spécificités du langage et des concepts financiers.
 
-![Fine-Tuning](fine-tuning.png)
+![Fine-Tuning](images/fine_tuning.png)
 
 ### 5. Déploiement du Modèle dans Hugging Face
+
 Enfin, le modèle finement ajusté est déployé sur Hugging Face, rendant notre assistant IA accessible pour des tests et une utilisation pratique. Hugging Face offre une interface API conviviale permettant d'intégrer facilement l'assistant dans des applications ou des services web.
 
-![Déploiement du Modèle](model-deployment.png)
+![Déploiement du Modèle](images/model_deployment.png)
 
 ---
 
