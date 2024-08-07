@@ -22,7 +22,7 @@ Llama2 est un modèle de langage avancé développé pour comprendre et génére
 
 ![Collecte de Données](images/collecte_de_données.png)
 
-![dataset](images/dataset_llama.png)
+![dataset](dataset_llama.png)
 
 
 ### 2. Préparation du Dataset
