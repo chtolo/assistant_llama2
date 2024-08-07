@@ -21,15 +21,12 @@ _ **Upload des fichiers à ChatGPT-4** :
 _ **Rassemblement d'un dataset sous forme de paires "###human: \"\" ###assistant:\"\":"** :
    - Organisez les données extraites en paires de questions-réponses, en utilisant les balises "###human:" et "###assistant:" pour chaque entrée.
 
+
+### 2. Préparation du Dataset
+Une fois les données collectées, elles doivent être nettoyées et formatées correctement. Cela inclut la suppression des données redondantes, la normalisation des textes, et la structuration des informations sous forme de paires questions-réponses:
 _**Utilisation d'une transformation de ce format en utilisant des balises spécifiques** :
    - Adaptez le format des données en utilisant des balises spécifiques pour structurer les questions et les réponses de manière cohérente.
 
-_ **Déploiement du dataset au niveau de Hugging Face** :
-   - Créez un dataset sur Hugging Face et téléchargez vos données formatées. Assurez-vous que les métadonnées et les descriptions du dataset sont bien renseignées pour une meilleure visibilité et utilisation par la communauté.
-
-
-### 2. Préparation du Dataset
-Une fois les données collectées, elles doivent être nettoyées et formatées correctement. Cela inclut la suppression des données redondantes, la normalisation des textes, et la structuration des informations sous forme de paires questions-réponses.
 
 ### 3. Déploiement dans Hugging Face
 Les données préparées sont ensuite chargées dans Hugging Face, une plateforme qui facilite la gestion et le partage de modèles de machine learning. Nous utilisons les outils de Hugging Face pour organiser et annoter notre dataset.
