@@ -20,7 +20,7 @@ _ **Upload des fichiers à ChatGPT-4o** :
 
 _ **Rassemblement d'un dataset sous forme de paires "###human: \"\" ###assistant:\"\":"** :
    - Organisez les données extraites en paires de questions-réponses, en utilisant les balises "###human:" et "###assistant:" pour chaque entrée.
-![Llama2]()
+![Llama2](dataset-llama 1.png)
 
 ### 2. Préparation du Dataset
 Une fois les données collectées, elles doivent être nettoyées et formatées correctement. Cela inclut la suppression des données redondantes, la normalisation des textes, et la structuration des informations sous forme de paires questions-réponses:
