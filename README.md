@@ -44,9 +44,10 @@ Les données préparées sont ensuite chargées dans Hugging Face, une plateform
 ### 4. Fine-Tuning
 
 Le modèle Llama2 est pré-entraîné sur un large corpus de données générales. Pour l'adapter à notre domaine spécifique, nous effectuons un fine-tuning en utilisant notre dataset de finance publique. Cela permet au modèle d'apprendre les spécificités du langage et des concepts financiers.
-
-![Fine-Tuning](images/fine_tuning.png)
-
+avant fine tunning:
+![Fine-Tuning](images/afine_tuning.png)
+après fine tunning:
+![Fine-Tuning](images/pfine_tuning.png)
 ### 5. Déploiement du Modèle dans Hugging Face
 
 Enfin, le modèle finement ajusté est déployé sur Hugging Face, rendant notre assistant IA accessible pour des tests et une utilisation pratique. Hugging Face offre une interface API conviviale permettant d'intégrer facilement l'assistant dans des applications ou des services web.
