@@ -15,12 +15,12 @@ Voici les étapes corrigées et détaillées sans code :
 _ **Conversion des décrets de marché public (2013 et 2023) de fichiers PDF en fichiers .txt** :
    - Utilisez des outils ou bibliothèques comme `PyMuPDF`, `pdfminer.six`, ou `PyPDF2` pour extraire le texte des fichiers PDF et les enregistrer en tant que fichiers .txt.
 
-_ **Upload des fichiers à ChatGPT-4** :
+_ **Upload des fichiers à ChatGPT-4o** :
    - Chargez les fichiers .txt en utilisant l'API de OpenAI et interrogez le modèle en se basant sur ces documents.
 
 _ **Rassemblement d'un dataset sous forme de paires "###human: \"\" ###assistant:\"\":"** :
    - Organisez les données extraites en paires de questions-réponses, en utilisant les balises "###human:" et "###assistant:" pour chaque entrée.
-
+![Llama2]()
 
 ### 2. Préparation du Dataset
 Une fois les données collectées, elles doivent être nettoyées et formatées correctement. Cela inclut la suppression des données redondantes, la normalisation des textes, et la structuration des informations sous forme de paires questions-réponses:
