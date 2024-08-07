@@ -1,7 +1,7 @@
 # assistant_llama2
 # Développement d'un Assistant IA Génératif Basé sur Llama2 dans le Domaine de la Finance Publique
 
-![Llama2](https://your-image-link.com/llama2.jpg)
+![Llama2](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5o-CJsbbG2pI3s8B9t4yyn9J5PAPZRJ80YyMVioZCzcgj3nff&s)
 
 ## Introduction
 
