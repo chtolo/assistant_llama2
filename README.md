@@ -10,7 +10,23 @@ Llama2 est un modèle de langage avancé développé pour comprendre et génére
 ## Étapes du Projet
 
 ### 1. Collecte de Données
-La première étape consiste à rassembler les données nécessaires à l'entraînement du modèle. Dans ce projet, nous collectons des données liées à la finance publique, comprenant des rapports financiers, des articles de presse, des analyses de marché, etc.
+Voici les étapes corrigées et détaillées sans code :
+
+_ **Conversion des décrets de marché public (2013 et 2023) de fichiers PDF en fichiers .txt** :
+   - Utilisez des outils ou bibliothèques comme `PyMuPDF`, `pdfminer.six`, ou `PyPDF2` pour extraire le texte des fichiers PDF et les enregistrer en tant que fichiers .txt.
+
+_ **Upload des fichiers à ChatGPT-4** :
+   - Chargez les fichiers .txt en utilisant l'API de OpenAI et interrogez le modèle en se basant sur ces documents.
+
+_ **Rassemblement d'un dataset sous forme de paires "###human: \"\" ###assistant:\"\":"** :
+   - Organisez les données extraites en paires de questions-réponses, en utilisant les balises "###human:" et "###assistant:" pour chaque entrée.
+
+_**Utilisation d'une transformation de ce format en utilisant des balises spécifiques** :
+   - Adaptez le format des données en utilisant des balises spécifiques pour structurer les questions et les réponses de manière cohérente.
+
+_ **Déploiement du dataset au niveau de Hugging Face** :
+   - Créez un dataset sur Hugging Face et téléchargez vos données formatées. Assurez-vous que les métadonnées et les descriptions du dataset sont bien renseignées pour une meilleure visibilité et utilisation par la communauté.
+
 
 ### 2. Préparation du Dataset
 Une fois les données collectées, elles doivent être nettoyées et formatées correctement. Cela inclut la suppression des données redondantes, la normalisation des textes, et la structuration des informations sous forme de paires questions-réponses.
