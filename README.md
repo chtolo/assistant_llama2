@@ -59,6 +59,4 @@ Enfin, le modèle finement ajusté est déployé sur Hugging Face, rendant notre
 
 ![Déploiement du Modèle](images/model_deployment.png)
 
----
-
-Ce fichier README fournit une vue d'ensemble claire du projet et guide les utilisateurs à travers chaque étape du développement de l'assistant IA génératif. Vous pouvez personnaliser les sections selon vos besoins spécifiques et ajouter des liens ou des références supplémentaires si nécessaire.
+---auteur:salma mottaki
