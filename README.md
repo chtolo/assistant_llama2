@@ -31,14 +31,15 @@ Une fois les données collectées, elles doivent être nettoyées et formatées 
 
 - **Utilisation d'une transformation de ce format en utilisant des balises spécifiques** :
    - Adaptez le format des données en utilisant des balises spécifiques pour structurer les questions et les réponses de manière cohérente.
-
-![Préparation du Dataset](images/dataset_preparation.png)
-
-### 3. Déploiement dans Hugging Face
+     ### . Déploiement dans Hugging Face
 
 Les données préparées sont ensuite chargées dans Hugging Face, une plateforme qui facilite la gestion et le partage de modèles de machine learning. Nous utilisons les outils de Hugging Face pour organiser et annoter notre dataset.
 
-![Déploiement dans Hugging Face](images/huggingface_deployment.png)
+
+![Préparation du Dataset](images/dataset_preparation.png)
+
+
+
 
 ### 4. Fine-Tuning
 
